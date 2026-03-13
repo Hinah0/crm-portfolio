@@ -35,45 +35,35 @@ font-size:20px;
 color:#cbd5e1;
 }
 
-/* BOUTON CONTACT */
+/* BOUTON CONTACT ET LINKEDIN */
 
-.contact-button{
-display:inline-block;
-margin-top:35px;
-padding:16px 38px;
+.contact-button,
+.linkedin-button{
+display:inline-flex;
+justify-content:center;
+align-items:center;
+
+width:220px;
+
+padding:16px 0;
+
 background:linear-gradient(135deg,#0a84ff,#2563eb);
 color:white;
+
 font-size:18px;
 border-radius:30px;
 text-decoration:none;
+
 box-shadow:0 10px 30px rgba(0,0,0,0.4);
 transition:all .25s ease;
 }
 
-.contact-button:hover{
-transform:translateY(-3px);
-box-shadow:0 20px 40px rgba(0,0,0,0.5);
-}
-
-/* BOUTON LINKEDIN */
-
-.linkedin-button{
-display:inline-block;
-margin-top:15px;
-padding:16px 38px;
-background:linear-gradient(135deg,#0a66c2,#004182);
-color:white;
-font-size:18px;
-border-radius:30px;
-text-decoration:none;
-box-shadow:0 10px 30px rgba(0,0,0,0.4);
-transition:all .25s ease;
-}
-
+.contact-button:hover,
 .linkedin-button:hover{
 transform:translateY(-3px);
 box-shadow:0 20px 40px rgba(0,0,0,0.5);
 }
+
 
 /* SECTIONS */
 
