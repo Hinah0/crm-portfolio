@@ -55,6 +55,26 @@ transform:translateY(-3px);
 box-shadow:0 20px 40px rgba(0,0,0,0.5);
 }
 
+/* BOUTON LINKEDIN */
+
+.linkedin-button{
+display:inline-block;
+margin-top:15px;
+padding:16px 38px;
+background:linear-gradient(135deg,#0a66c2,#004182);
+color:white;
+font-size:18px;
+border-radius:30px;
+text-decoration:none;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+transition:all .25s ease;
+}
+
+.linkedin-button:hover{
+transform:translateY(-3px);
+box-shadow:0 20px 40px rgba(0,0,0,0.5);
+}
+
 /* SECTIONS */
 
 section{
@@ -221,26 +241,6 @@ background:rgba(255,255,255,0.08);
 padding-left:22px;
 }
 
-/* BOUTON LINKEDIN */
-
-.linkedin-button{
-display:inline-block;
-margin-top:15px;
-padding:14px 34px;
-background:#0a66c2;
-color:white;
-font-size:17px;
-border-radius:30px;
-text-decoration:none;
-box-shadow:0 10px 25px rgba(0,0,0,0.35);
-transition:all .25s ease;
-}
-
-.linkedin-button:hover{
-transform:translateY(-3px);
-box-shadow:0 18px 35px rgba(0,0,0,0.5);
-background:#004182;
-}
 
 /* FOOTER */
 
